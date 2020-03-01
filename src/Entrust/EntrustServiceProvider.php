@@ -35,7 +35,7 @@ class EntrustServiceProvider extends ServiceProvider
         $this->commands('command.entrust.migration');
 
         // Register blade directives
-        $this->bladeDirectives();
+//        $this->bladeDirectives();
     }
 
     /**
